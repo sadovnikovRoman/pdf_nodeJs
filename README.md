@@ -1,7 +1,7 @@
 # pdf_nodeJs
 text to pdf
-{code}
 
+```
 'use strict';
 
 const PDFKit = require("pdfkit")
@@ -32,5 +32,4 @@ module.exports.generate_pdf = async (event) => {
     doc.end()
   });
 }
-
-{code}
+```
